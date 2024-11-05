@@ -4,6 +4,7 @@ This is my project, where I process customer data, specifically log_search and l
 ![image](https://github.com/user-attachments/assets/c5c2368f-2c97-4dd8-9f60-a1302ac582ed)
 
 1. Processing content_data.
+   
   1.1. Treatment direction
    First, I will read the data from the CSV file and remove any unnecessary information. Then, I will classify the applications into categories based on AppName, which includes durations such as Television, Movies, Entertainment, Children, and Sports. Next, I will pivot the data according to these durations to track customer preferences. This will allow me to analyze what customers have watched, which genres they prefer the most, and to compile statistics for each customer. Finally, I will aggregate this data and store it in the database in the content_data table.
    
@@ -19,7 +20,7 @@ This is my project, where I process customer data, specifically log_search and l
    
    ![image](https://github.com/user-attachments/assets/72b9f50e-3f6b-4c4a-bd64-48c9c0d081cd)
    
-3. Processing search_data.
+2. Processing search_data.
 
    2.1. Treatment direction
    
